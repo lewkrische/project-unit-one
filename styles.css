@@ -62,6 +62,25 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
+header.resumebackground {
+  text-align: center;
+  background: url('images/Kstate_text_logo.svg') no-repeat top center;
+   /* background image source- https://commons.wikimedia.org/wiki/File:Kstate_text_logo.svg */
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+header.hobbiesbackground {
+  text-align: center;
+  background: url('images/ferns.jpg') no-repeat top center;
+  /* background image source-https://commons.wikimedia.org/w/index.php?search=rainforest&title=Special:Search&go=Go&ns0=
+  1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1&searchToken=cihbnsnilrl1w17ntr19q4gtr#%2Fmedia%2FFile%3AFerns
+  _on_national_botanical_gardens_rainforest_tour.jpg */
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
 header {
   line-height: 1.5;
 }
@@ -70,7 +89,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px dotted white;
   transition: all .5s;
 }
 header .profile-image:hover {
